@@ -5,7 +5,7 @@
 /**
  * infinite_while -  a C program that creates 5 zombie processes
  * an infinite loop to make the program hang
- * 
+ *
  * Return: always 0
  */
 int infinite_while(void)
