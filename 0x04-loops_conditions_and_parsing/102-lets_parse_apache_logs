@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# a Bash script that displays Apache log file in a list format, using awk.
+
+myfile="apache-access.log"
+awk -F' ' '{ print $1, $9}' $myfile

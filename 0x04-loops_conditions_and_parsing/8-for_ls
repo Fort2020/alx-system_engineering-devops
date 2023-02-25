@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# a Bash script displays the content of the current directory in list format
+# displays only the part of the name after the first dash, using for
+# do not display hidden files
+
+mylist=$(ls)
+
+for i in $mylist; do
+  echo "$i" | cut -d '-' -f2
+done
