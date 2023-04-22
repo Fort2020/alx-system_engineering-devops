@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# This Bash script creates an RSA key pair
+# This Bash script creates an RSA key pair with the name school,
+# number of bit 4096, protected by the paraphrase betty
 
-if [ ! -d ~/.ssh ]; then
-	mkdir ~/.ssh
-fi
-ssh-keygen -t rsa -f ~/.ssh/school -N ""
+ssh-keygen -t rsa -N betty -f school -b 4096
