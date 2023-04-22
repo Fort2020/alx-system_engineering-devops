@@ -2,4 +2,4 @@
 # This Bash script creates an RSA key pair with the name school,
 # number of bit 4096, protected by the paraphrase betty
 
-ssh-keygen -f school -b 4096 -N betty
+ssh-keygen -t rsa -f school -b 4096 -N betty
