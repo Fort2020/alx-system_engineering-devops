@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-ssh ubuntu@34.204.199.6
-mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
-chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
-echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC6giZ5B87GWmKLjyQAI90WU92DzdGDPvsfbOanZ7VjIEXk8UT0P4FdHieGM/tM5QqzKoxwKikjZjxj0eV0Ye5VMVQxPPEOPC4ycarZvxVwwzPTDiWtgrt+qtKPci4r4D677Z0KxKlhQEhEW/Z47h6wgKyBTouH9OkfFcTCzxuMi5TPLIFNkb5cXp73VO4vRlLv318JEy65kq1i3Xbh55Ka86c6Ugop4a6t5pCwaIyUGNm8bT7pHYw+DhXmHRRWuNy1t9ZsHhOnITEJQm0xULqVRlNjOQpmyxfelKGTk2mzSUUAhOgbAQcMm1pRqM79FSRQ+2aQQRgOJVFZSW61QLPowFL3kS/bqpB0IQU3M3bUciirqCOK32bgiqppSud3havHri6s9K+e3X4X1ypXUlUWa8WjUUuIDezqpoVO4SsIJlWvt0UujkqGtMKes7yYNXKzjw1Xxmk66DGOfcGQC6By7+PfLXAa+u2UZohkpLjPdaITN29WBKDrgfrG8rYcbZc= frankfort@DESKTOP-KP31H0K
