@@ -1,7 +1,10 @@
-# Configure Nginx for HTTP response to contain a custom header on web-01 and web-02
-# The HTTP header must be X-Served-By
-# The value of the custom HTTP header must be the hostname of the server Nginx is running on
-# The 0-custom_http_response_header should configure in a brand new Ubuntu machine
+
+
+
+
+#!/usr/bin/env bash
+# Duplicate web-01 to web-02
+# Upgrade from the web-server scripts
 
 echo -e "Updating and doing some minor checks...\n"
 
