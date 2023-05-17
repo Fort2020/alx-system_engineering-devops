@@ -1,7 +1,3 @@
-
-
-
-
 #!/usr/bin/env bash
 # Duplicate web-01 to web-02
 # Upgrade from the web-server scripts
