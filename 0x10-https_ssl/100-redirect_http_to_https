@@ -33,19 +33,18 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-frontend franklive-frontend
+frontend Frank-frontend-http
         bind *:80
-        mode http
-        http-request redirect scheme https code 301 unless { ssl_fc }
-        http-request set-header X_Forwarded-Proto http
-        default_backend franklive-backend
+	mode http
+	http-request set-header X-Forwarded-Proto http
+        default_backend Frank-backend
 
-frontend franklive-frontend-https
+frontend Frank-frontend-https
         bind *:443 ssl crt /etc/haproxy/certs/www.franklive.tech.pem
-        http-request set-header X-Forwarded-Proto https
-        default_backend franklive-backend
+	http-request set-header X-Forwarded-Proto https
+        default_backend Frank-backend
 
-backend franklive-backend
+backend Frank-backend
         balance roundrobin
         server 106489-web-01 100.25.169.10:80 check
         server 106489-web-02 54.236.49.19:80 check
