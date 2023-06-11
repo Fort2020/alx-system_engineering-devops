@@ -6,6 +6,8 @@
  
 At about 12:45 WAT on Saturday, June 10, 2023; there was downtime or outage on our server, which caused error 504, and this has triggered our company business to lose money within those moments users could not access the server. Everyone entertained fear, when no one knows the cause initially. The impact on the users resulted in 85% who could not access the server, as downtime lasted for two (2) hours. The root of the cause was insufficient disk space, and the fluctuation of power supply from the grid firm, who constantly switched the light ON and OFF, also at their own will, and the worst; “without prior notice”.
  
+ ![Postmorterm Timeline](https://github.com/Fort2020/alx-system_engineering-devops/assets/114498685/b3e8df7a-3545-4ef8-920d-733533b11921)
+ 
 # TIMELINE
  
 - 12:45 WAT – The issue was detected.
